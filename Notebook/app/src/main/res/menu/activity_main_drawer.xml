@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/note_public"
+            android:icon="@drawable/note_public"
+            android:title="公开" />
+        <item
+            android:id="@+id/note_private"
+            android:icon="@drawable/note_private"
+            android:title="私人" />
+    </group>
+
+</menu>
